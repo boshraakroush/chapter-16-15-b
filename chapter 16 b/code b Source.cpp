@@ -15,9 +15,8 @@ T half(T num)
 int ihalf(int i)
 {	
 	static_cast<float>(i);
-	float x = i/ 2.0; 
-	float rounded= round(x);
-	
+	float x = i / 2.0;
+	float rounded = round(x);
 	return rounded;
 }
 
